@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #5865f2;
-    --black-color: #000;
+    --primary-color: #7fff00;
+    --sub-color: #A9A9A9;
     --white-color: #fff;
-    --blue-color: #1877f2;
-    --green-color: #00a400;
+    --black-color: #000;
+    --input-color: #eee;
 }
 
 html {
@@ -16,48 +16,4 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
-
-/* Mẫu input nhập dữ liệu */
-.box__text {
-    padding: 16px;
-}
-
-.sign__text {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-}
-
-.sign__text > input {
-    width: 100%;
-    height: 100%;
-    outline: none;
-    border-radius: 6px;
-    border: 1px solid var(--black-color);
-}
-
-input[type="email"]::placeholder {
-    padding-left: 10px;
-}
-input[type="password"]::placeholder {
-    padding-left: 10px;
-}
-input[type="text"]::placeholder {
-    padding-left: 10px;
-}
-
-/* Mẫu button */
-.box__btn {
-    width: 90%;
-    height: 48px;
-    margin: 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.box__btn__prototype {
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 6px;
-}
+ 

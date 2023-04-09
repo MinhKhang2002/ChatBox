@@ -1,156 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/css/base.css">
     <link rel="stylesheet" href="asset/css/grid.css">
-    <link rel="stylesheet" href="asset/css/main.css">
-    <link rel="stylesheet" href="asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="asset/css/sign_in.css">
     <title>Đăng nhập</title>
 </head>
-
 <body>
-    <main>
-        <!-- Đăng nhập -->
-        <div class="backgroud__full">
-            <div class="box__sigin">
-                <div class="box__sigin__title">
-                    <h2 class="box__sigin__title--1">Chat</h2>
-                    <h3 class="box__sigin__title--2">Sign in to your account.</h3>
-                </div>
-                <div class="box__text">
-                    <div class="sign__text">
-                        <input type="email" placeholder="Email">
-                    </div>
-                    <div class="sign__text">
-                        <input type="password" placeholder="Password">
-                    </div>
+    <div class="full__back">
+        <div class="box__content" id="container">
+            <!-- Đăng nhập -->
+            <div class="sign__in">
+                <form action="#">
+                    <h1 class="sign__in-title">Đăng nhập</h1>
+                    <input type="text" placeholder="Tài khoản email" class="box__input">
+                    <input type="text" placeholder="Mật khẩu" class="box__input">
+                    <a href="" class="sign__in-remind">Quên mật khẩu?</a>
+                    <button class="sign__in-btn">Đăng nhập</button>
+                </form>
+            </div>
+            <!-- Đăng ký -->
+            <div class="new__acc">
+                <form action="#">
+                    <h1 class="sign__in-title">Tạo tài khoản</h1>
+                    <input type="text" placeholder="Tên người dùng" class="box__input">
+                    <input type="email" placeholder="Tài khoản email" class="box__input">
+                    <input type="text" placeholder="Mật khẩu" class="box__input">
+                    <button class="sign__in-btn">Đăng nhập</button>
+                </form>
+            </div>
 
-                    <div class="box__btn">
-                        <button class="box__btn__prototype">Sign in</button>
-                    </div>
-                    <div class="box__sigin__remind">
-                        <a href="" class="box__sigin__remind__link">Forget Password?</a>
-                    </div>
-                    <label for="on__of">
-                        <div class="box__btn box-posi">
-                            <button class="box__btn__prototype new-acc">Register</button>
-                        </div>
-                    </label>
+
+
+            <!-- Layout che form đăng ký - đăng nhập (Overlay)-->
+            <!-- Overlay Đăng Nhập -->
+            <div class="overlay__dn">
+                <div class="overlay-form">
+                    <h1 class="overlay__title">Bạn đã từng đến đây?</h1>
+                    <p class="overlay__sub-title">Hãy đăng nhập để chúng ta có thể kết nối với nhau</p>
+                    <button class="overlay__btn">Đăng nhập</button>
+                </div>
+            </div>
+            <!-- Overlay Đăng Ký -->
+            <div class="overlay__dk">
+                <div class="overlay-form">
+                    <h1 class="overlay__title">Chat Box xin chào!</h1>
+                    <p class="overlay__sub-title">Nếu đây là lần đầu bạn đến đây, hãy đăng ký để nhận được thông tin mới nhất từ mình nhé!</p> 
+                    <button class="overlay__btn-dk">Đăng ký</button>
                 </div>
             </div>
         </div>
-
-        <!-- Đăng ký -->
-        <input type="checkbox" id="on__of">
-        <div class="modal">
-            <div class="box__modal">
-                <div class="box__modal__head">
-                    <h1>Sign up</h1>
-                    <label for="on__of" class="box__modal__head__close">
-                        <i class="ti-close"></i>
-                    </label>
-                </div>
-                <div class="box__text">
-                    <form action="">
-                        <div class="box__modal__form__name">
-                            <input type="text" placeholder="Last name">
-                            <input type="text" placeholder="First name">
-                        </div>
-                        <div class="sign__text">
-                            <input type="text" placeholder="Email or SĐT">
-                        </div>
-                        <div class="sign__text">
-                            <input type="password" placeholder="Password">
-                        </div>
-
-                        <p class="title_dayof">Date of birth</p>
-                        <div class="box__text-dayofbird">
-                            <select id="day" class="my-select">
-                                <option value="day-1">1</option>
-                                <option value="day-2">2</option>
-                                <option value="day-3">3</option>
-                                <option value="day-4">4</option>
-                                <option value="day-5">5</option>
-                                <option value="day-6">6</option>
-                                <option value="day-7">7</option>
-                                <option value="day-8">8</option>
-                                <option value="day-9">9</option>
-                                <option value="day-10">10</option>
-                                <option value="day-11">11</option>
-                                <option value="day-12">12</option>
-                                <option value="day-13">13</option>
-                                <option value="day-14">14</option>
-                                <option value="day-15">15</option>
-                                <option value="day-16">16</option>
-                                <option value="day-17">17</option>
-                                <option value="day-18">18</option>
-                                <option value="day-19">19</option>
-                                <option value="day-20">20</option>
-                                <option value="day-21">21</option>
-                                <option value="day-22">22</option>
-                                <option value="day-23">23</option>
-                                <option value="day-24">24</option>
-                                <option value="day-25">25</option>
-                                <option value="day-26">26</option>
-                                <option value="day-27">27</option>
-                                <option value="day-28">28</option>
-                                <option value="day-29">29</option>
-                                <option value="day-30">30</option>
-                                <option value="day-31">31</option>
-                            </select>
-                            <select id="month" class="my-select">
-                                <option value="month-1">Jan</option>
-                                <option value="month-2">Feb</option>
-                                <option value="month-3">Mar</option>
-                                <option value="month-4">Apr</option>
-                                <option value="month-5">May</option>
-                                <option value="month-6">Jun</option>
-                                <option value="month-7">Jul</option>
-                                <option value="month-8">Aug</option>
-                                <option value="month-9">Sep</option>
-                                <option value="month-10">Oct</option>
-                                <option value="month-11">Nov</option>
-                                <option value="month-12">Dec</option>
-                            </select>
-                            <select id="years" class="my-select">
-                                <option value="years-2023">2023</option>
-                                <option value="years-2022">2022</option>
-                                <option value="years-2021">2021</option>
-                                <option value="years-2020">2020</option>
-                                <option value="years-2019">2019</option>
-                                <option value="years-2018">2018</option>
-                                <option value="years-2017">2017</option>
-                                <option value="years-2016">2016</option>
-                                <option value="years-2015">2015</option>
-                                <option value="years-2014">2014</option>
-                                <option value="years-2013">2013</option>
-                                <option value="years-2012">2012</option>
-                                <option value="years-2011">2011</option>
-                                <option value="years-2010">2010</option>
-                                <option value="years-2009">2009</option>
-                                <option value="years-2008">2008</option>
-                                <option value="years-2007">2007</option>
-                                <option value="years-2006">2006</option>
-                                <option value="years-2005">2005</option>
-                                <option value="years-2004">2004</option>
-                                <option value="years-2003">2003</option>
-                                <option value="years-2002">2002</option>
-                                <option value="years-2001">2001</option>
-                                <option value="years-2000">2000</option>
-                            </select>
-                        </div>
-                    </form>
-                    <div class="box__btn">
-                        <button class="box__btn__prototype Sign__up--color">Sign up</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+    </div>
 </body>
-
 </html>
