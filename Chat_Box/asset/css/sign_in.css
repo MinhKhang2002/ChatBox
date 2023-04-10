@@ -40,7 +40,7 @@
     background-color: var(--input-color);
 }
 
-input[type="text"]::placeholder {
+input[type="password"]::placeholder {
     padding-left: 10px;
 }
  
@@ -80,6 +80,9 @@ input[type="text"]::placeholder {
 }
 
 input[type="email"]::placeholder {
+    padding-left: 10px;
+}
+input[type="text"]::placeholder {
     padding-left: 10px;
 }
  
@@ -130,6 +133,7 @@ input[type="email"]::placeholder {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: var(--primary-color);
+    /* display: none; */
 }
 
 .overlay__btn-dk {
